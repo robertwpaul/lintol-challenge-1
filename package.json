@@ -1,0 +1,24 @@
+{
+  "name": "lintol-challenge-1",
+  "version": "1.0.0",
+  "description": "[Personally Identifiable Information](https://mailchi.mp/a5d4c7d57918/challenge-1-personally-identifiable-information)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertwpaul/lintol-challenge-1.git"
+  },
+  "author": "Robert Paul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robertwpaul/lintol-challenge-1/issues"
+  },
+  "homepage": "https://github.com/robertwpaul/lintol-challenge-1#readme",
+  "dependencies": {
+    "fast-csv": "^2.4.1",
+    "natural": "^0.5.6"
+  }
+}
