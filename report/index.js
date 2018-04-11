@@ -1,8 +1,8 @@
-function Report(version, format) {
+function Report(version, format, itemCount) {
   this.version = version;
   this.format = format;
   this.errors = [];
-  this.itemCount = 0;
+  this.itemCount = itemCount;
 }
 
 Report.prototype.setItemCount = function(itemCount) {

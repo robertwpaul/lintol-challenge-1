@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/robertwpaul/lintol-challenge-1#readme",
   "dependencies": {
-    "fast-csv": "^2.4.1",
+    "csv-parse": "^2.2.0",
     "natural": "^0.5.6"
   }
 }
