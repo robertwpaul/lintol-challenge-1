@@ -1,7 +1,7 @@
 const fs = require('fs');
 
-const csvAnalyser = require('./csv-analyser');
-const Report = require('./report');
+const csvAnalyser = require('./src/csv-analyser');
+const Report = require('./src/report');
 
 const filepathArg = () => {
   const argc = process.argv.length;
