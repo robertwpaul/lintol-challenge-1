@@ -15,18 +15,22 @@ Report.prototype.addError = function(code, message, type, location) {
     message,
     item: {
       itemType: type,
-      location
-    }
+      location,
+    },
   });
 };
 
 Report.prototype.toString = function() {
-  return JSON.stringify({
-    version: this.version,
-    "item-count": this.itemCount,
-    format: this.format,
-    errors: this.errors
-  }, null, 2);
+  return JSON.stringify(
+    {
+      version: this.version,
+      'item-count': this.itemCount,
+      format: this.format,
+      errors: this.errors,
+    },
+    null,
+    2
+  );
 };
 
 Report.prototype.print = function() {
@@ -36,12 +40,17 @@ Report.prototype.print = function() {
 const generateReport = (itemCount, format, errors) => {
   const report = new Report(1, format, itemCount);
   errors.forEach(error => {
-    report.addError(error.code, error.message, error.item.itemType, error.item.location);
+    report.addError(
+      error.code,
+      error.message,
+      error.item.itemType,
+      error.item.location
+    );
   });
   report.print();
 };
 
 module.exports = {
   Report,
-  generateReport
+  generateReport,
 };

@@ -3,7 +3,7 @@ const { isValidNumber } = require('libphonenumber-js');
 function hasPhoneNumbers(data) {
   const possibilities = data.match(/[0-9+()-\s]+/g);
   if (possibilities === null) return false;
-  return possibilities.some(num => isValidNumber(num, 'GB'))
+  return possibilities.some(num => isValidNumber(num, 'GB'));
 }
 
 function run(item) {
@@ -13,9 +13,9 @@ function run(item) {
         {
           code: 'PHONE_NUMBER_FOUND',
           message: 'Found a phone number!',
-          item
-        }
-      ])
+          item,
+        },
+      ]);
     } else {
       resolve([]);
     }
@@ -23,5 +23,5 @@ function run(item) {
 }
 
 module.exports = {
-  run
-}
+  run,
+};

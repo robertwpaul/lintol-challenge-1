@@ -7,16 +7,16 @@ const parseCsvFile = file => {
   const data = parse(file);
   const rows = data.slice(1);
 
-  return rows.map((row, rowIndex) => (
+  return rows.map((row, rowIndex) =>
     row.map((cell, columnIndex) => ({
       data: cell,
       itemType: 'Cell',
       location: {
         column: columnIndex,
-        row: rowIndex
-      }
+        row: rowIndex,
+      },
     }))
-  ));
+  );
 };
 
 const analyse = file => {
@@ -35,11 +35,11 @@ const analyse = file => {
     return {
       errors: flatArray(data),
       itemCount: rows.length,
-      format: 'csv'
+      format: 'csv',
     };
   });
 };
 
 module.exports = {
-  analyse
-}
+  analyse,
+};

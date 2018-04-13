@@ -5,11 +5,5 @@ const email = require('./email');
 const macAddress = require('./mac-address');
 
 module.exports = {
-  textProcessors: [
-    ip,
-    phoneNumber,
-    nationalInsuranceNumber,
-    email,
-    macAddress
-  ]
+  textProcessors: [ip, phoneNumber, nationalInsuranceNumber, email, macAddress],
 };
