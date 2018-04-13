@@ -37,6 +37,8 @@ $ docker-compose down
 
 The output will be written to [data/output.json](data/output.json); running this script with `docker-compose up` or `node index.js` will overide the output in the `/data` folder.
 
+[![asciicast](https://asciinema.org/a/176136.png)](https://asciinema.org/a/176136)
+
 ## Available Processors
 
 The following is a list of the available processors:
