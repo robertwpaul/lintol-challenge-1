@@ -1,0 +1,31 @@
+{
+  "projectName": "lintol-challenge-1",
+  "projectOwner": "robertwpaul",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "apoclyps",
+      "name": "Kyle Harrison",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1443700?v=4",
+      "profile": "http://www.kyleharrison.co.uk",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "robertwpaul",
+      "name": "Robert Paul",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/25768210?v=4",
+      "profile": "https://github.com/robertwpaul",
+      "contributions": [
+        "code"
+      ]
+    }
+  ]
+}
