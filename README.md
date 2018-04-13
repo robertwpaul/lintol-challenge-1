@@ -52,6 +52,16 @@ Adding a new processor couldn't be easier.
 * Add the processor as an export within `/src/processors/index.js`
 * Run your processor using `docker-compose up`
 
+## Code style
+
+This codebase is formatted with Prettier. Prettier is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.
+
+To ensure code consistency within this repository you should run the following command before committing code:
+
+```bash
+npm run format
+```
+
 ## Contributing
 
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/robertwpaul/lintol-challenge-1/issues)
