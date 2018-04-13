@@ -33,6 +33,10 @@ And to tear down the local development stack, simply run:
 $ docker-compose down
 ```
 
+### Output
+
+The output will be written to [data/output.json](data/output.json); running this script with `docker-compose up` or `node index.js` will overide the output in the `/data` folder.
+
 ## Available Processors
 
 The following is a list of the available processors:

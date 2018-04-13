@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 function Report(version, format, itemCount) {
   this.version = version;
   this.format = format;
