@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --single-quote --trailing-comma es5 --write \"src/**/*.js\" --with-node-module", 
+    "test": "jest",
+    "format": "prettier --single-quote --trailing-comma es5 --write \"src/**/*.js\" --with-node-module",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate"
   },
@@ -27,6 +27,7 @@
     "prettier": "^1.12.0"
   },
   "devDependencies": {
-    "all-contributors-cli": "^4.11.1"
+    "all-contributors-cli": "^4.11.1",
+    "jest": "^21.2.1"
   }
 }
