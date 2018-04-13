@@ -1,22 +1,22 @@
 const processor = require('../');
 
-test('No email address is present', () => {
+test('No National Insurance Number is present', () => {
   const item = {
-    data: 'This is not an email address',
+    data: 'This is not an national insurance number',
   };
 
   expect.assertions(1);
   processor.run(item).then(item => expect(item).toEqual([]));
 });
 
-test('A .biz address is identified', () => {
+test('A National Insurance Number is identified', () => {
   const item = {
-    data: 'This contains a email address aurore@farrell.biz',
+    data: 'This contains a national insurance number QQ 12 34 56 C',
   };
 
   const expected = [
     {
-      code: 'EMAIL_ADDRESS_FOUND',
+      code: 'NI_NUMBER_FOUND',
     },
   ];
 

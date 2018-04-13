@@ -1,22 +1,22 @@
 const processor = require('../');
 
-test('No email address is present', () => {
+test('No Phone Number is present', () => {
   const item = {
-    data: 'This is not an email address',
+    data: 'This is not an phone number',
   };
 
   expect.assertions(1);
   processor.run(item).then(item => expect(item).toEqual([]));
 });
 
-test('A .biz address is identified', () => {
+test('A Phone Number is identified', () => {
   const item = {
-    data: 'This contains a email address aurore@farrell.biz',
+    data: 'This contains a phone number 01509 813888',
   };
 
   const expected = [
     {
-      code: 'EMAIL_ADDRESS_FOUND',
+      code: 'PHONE_NUMBER_FOUND',
     },
   ];
 

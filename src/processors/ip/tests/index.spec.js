@@ -1,22 +1,22 @@
 const processor = require('../');
 
-test('No email address is present', () => {
+test('No IP address is present', () => {
   const item = {
-    data: 'This is not an email address',
+    data: 'This is not an ip address',
   };
 
   expect.assertions(1);
   processor.run(item).then(item => expect(item).toEqual([]));
 });
 
-test('A .biz address is identified', () => {
+test('A IP address is identified', () => {
   const item = {
-    data: 'This contains a email address aurore@farrell.biz',
+    data: 'This contains a ip address 192.168.0.1',
   };
 
   const expected = [
     {
-      code: 'EMAIL_ADDRESS_FOUND',
+      code: 'IP_ADDRESS_FOUND',
     },
   ];
 
