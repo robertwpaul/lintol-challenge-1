@@ -33,4 +33,15 @@ Report.prototype.print = function() {
   console.log(this.toString());
 };
 
-module.exports = Report;
+const generateReport = (itemCount, format, errors) => {
+  const report = new Report(1, format, itemCount);
+  errors.forEach(error => {
+    report.addError(error.code, error.message, error.item.itemType, error.item.location);
+  });
+  report.print();
+};
+
+module.exports = {
+  Report,
+  generateReport
+};
