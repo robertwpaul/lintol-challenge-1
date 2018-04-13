@@ -52,6 +52,14 @@ Adding a new processor couldn't be easier.
 * Add the processor as an export within `/src/processors/index.js`
 * Run your processor using `docker-compose up`
 
+## Running Tests
+
+Jest is used by Facebook to test all JavaScript code including React applications. One of Jest's philosophies is to provide an integrated "zero-configuration" experience. We observed that when engineers are provided with ready-to-use tools, they end up writing more tests, which in turn results in more stable and healthy code bases.
+
+```
+npm run test
+```
+
 ## Code style
 
 This codebase is formatted with Prettier. Prettier is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.
