@@ -15,4 +15,8 @@ const file = readFile(filepathArg());
 
 csvAnalyser.analyse(file).then(function(result) {
   generateReport(result.itemCount, result.format, result.errors);
+
+  var wstream = fs.createWriteStream('data/output.json');
+  wstream.write(JSON.stringify(result,null,2));
+  wstream.end(console.log('Output generated'));
 });
