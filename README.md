@@ -43,8 +43,8 @@ A list of contributors who participated in this project.
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars0.githubusercontent.com/u/1443700?v=4" width="100px;"/><br /><sub><b>Kyle Harrison</b></sub>](http://www.kyleharrison.co.uk)<br />| [<img src="https://avatars0.githubusercontent.com/u/25768210?s=400&v=4" width="100px;"/><br /><sub><b>Robert Paul</b></sub>](https://github.com/robertwpaul)<br /> |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| [<img src="https://avatars0.githubusercontent.com/u/1443700?v=4" width="100px;"/><br /><sub><b>Kyle Harrison</b></sub>](http://www.kyleharrison.co.uk)<br />[💻](https://github.com/robertwpaul/lintol-challenge-1/commits?author=apoclyps "Code") | [<img src="https://avatars3.githubusercontent.com/u/25768210?v=4" width="100px;"/><br /><sub><b>Robert Paul</b></sub>](https://github.com/robertwpaul)<br />[💻](https://github.com/robertwpaul/lintol-challenge-1/commits?author=robertwpaul "Code") |
+| :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## License
