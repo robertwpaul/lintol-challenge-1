@@ -62,8 +62,8 @@ Adding a new processor couldn't be easier.
 
 Jest is used by Facebook to test all JavaScript code including React applications. One of Jest's philosophies is to provide an integrated "zero-configuration" experience. We observed that when engineers are provided with ready-to-use tools, they end up writing more tests, which in turn results in more stable and healthy code bases.
 
-```
-npm run test
+```bash
+docker-compose run test
 ```
 
 ## Code style
@@ -73,7 +73,7 @@ This codebase is formatted with Prettier. Prettier is an opinionated code format
 To ensure code consistency within this repository you should run the following command before committing code:
 
 ```bash
-npm run format
+docker-compose run task npm run format
 ```
 
 ## Contributing
