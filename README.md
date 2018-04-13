@@ -48,6 +48,7 @@ The following is a list of the available processors:
 * [IP Address](docs/processors/ip)
 * [National Insurance](docs/processors/national-insurance)
 * [Phone Number](docs/processors/phone-number)
+* [Vehicle Registration](docs/processors/vehicle-registration)
 
 ## Adding a processor
 
