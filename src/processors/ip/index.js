@@ -7,9 +7,9 @@ function run(item) {
         {
           code: 'IP_ADDRESS_FOUND',
           message: 'Found an IP address!',
-          item
-        }
-      ])
+          item,
+        },
+      ]);
     } else {
       resolve([]);
     }
@@ -17,5 +17,5 @@ function run(item) {
 }
 
 module.exports = {
-  run
-}
+  run,
+};

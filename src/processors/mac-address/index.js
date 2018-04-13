@@ -7,9 +7,9 @@ function run(item) {
         {
           code: 'MAC_ADDRESS_FOUND',
           message: 'Found an MAC address!',
-          item
-        }
-      ])
+          item,
+        },
+      ]);
     } else {
       resolve([]);
     }
@@ -17,5 +17,5 @@ function run(item) {
 }
 
 module.exports = {
-  run
-}
+  run,
+};

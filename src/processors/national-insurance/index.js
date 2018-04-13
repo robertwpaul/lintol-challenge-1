@@ -7,9 +7,9 @@ function run(item) {
         {
           code: 'NI_NUMBER_FOUND',
           message: 'Found a National Insurance Number!',
-          item
-        }
-      ])
+          item,
+        },
+      ]);
     } else {
       resolve([]);
     }
@@ -17,5 +17,5 @@ function run(item) {
 }
 
 module.exports = {
-  run
-}
+  run,
+};
