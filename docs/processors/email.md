@@ -1,4 +1,4 @@
-### Email Number Processor
+### Email Address Processor
 
 > The Email Address processor uses a more practical implementation of [RFC 2822](https://tools.ietf.org/html/rfc2822).
 

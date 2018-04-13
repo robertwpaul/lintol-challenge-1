@@ -33,6 +33,25 @@ And to tear down the local development stack, simply run:
 $ docker-compose down
 ```
 
+## Available Processors
+
+The following is a list of the available processors:
+
+* [Email Address](docs/processors/email)
+* [MAC Address](docs/processors/mac-address)
+* [IP Address](docs/processors/ip)
+* [National Insurance](docs/processors/national-insurance)
+* [Phone Number](docs/processors/phone-number)
+
+## Adding a processor
+
+Adding a new processor couldn't be easier.
+
+* Create a new directory under `/src/processors` with your processor name
+* Add processor implementation within the new created directory
+* Add the processor as an export within `/src/processors/index.js`
+* Run your processor using `docker-compose up`
+
 ## Contributing
 
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/robertwpaul/lintol-challenge-1/issues)
